@@ -1,16 +1,26 @@
 # PowerShell-Practice
 Following the book: PowerShell For SysAdmins
 
-Part 1
+Chapter 1
 
 cd: used to change directories
 
 dir: lists subdirectories
 
-![image](https://github.com/colehcagle/PowerShell-Practice/assets/90011945/453716a1-1b06-4cce-acca-c3181b349cd1)
-
 cls: clears the console
 
 Get-Alias: lists old school cmd.exe commands
 
-![image](https://github.com/colehcagle/PowerShell-Practice/assets/90011945/e55eacee-5508-4f27-88ac-814d5760c837)
+Get-Command: lists PowerShell commands; verb-noun scheme
+
+Get-Command -Verb Get: lists PowerShell commands with the verb, Get
+
+Get-Command -Verb Get -Noun Content: lists PowerShell commands with the verb, Get and the noun, Content
+
+help: provides information about a command
+
+Get-Help: provides information about a command (-Examples parameter is extremely useful)
+
+Update-Help: updates information about commands
+
+Get-Help about_Core_Commands: provides explanations about PowerShell's core commands
